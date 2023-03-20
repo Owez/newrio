@@ -1,11 +1,16 @@
-# sessions
+# Sessions
 
-This library was generated with [Nx](https://nx.dev).
+Core session interfaces and functions for shared use
 
-## Running unit tests
+## Example
 
-Run `nx test sessions` to execute the unit tests via [Jest](https://jestjs.io).
+```ts
+import { newSession } from "sessions"
 
-## Running lint
+// Create a new session from token
+const token = "ua:efwfweewfwefewewf"
+const session = createSession(token)
 
-Run `nx lint sessions` to execute the lint via [ESLint](https://eslint.org/).
+// Will say it's for an account
+console.log(session.token?.intent)
+```

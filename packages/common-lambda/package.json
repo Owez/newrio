@@ -1,4 +1,7 @@
 {
   "name": "common-lambda",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.114"
+  }
 }

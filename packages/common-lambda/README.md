@@ -1,11 +1,3 @@
-# common-lambda
+# Lambda Common
 
-This library was generated with [Nx](https://nx.dev).
-
-## Running unit tests
-
-Run `nx test common-lambda` to execute the unit tests via [Jest](https://jestjs.io).
-
-## Running lint
-
-Run `nx lint common-lambda` to execute the lint via [ESLint](https://eslint.org/).
+Common interfaces and implementations for lambda functions. This includes items like response builders and erroring utilities
