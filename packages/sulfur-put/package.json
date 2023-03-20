@@ -2,7 +2,11 @@
     "name": "sulfur-put",
     "version": "0.0.1",
     "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.294.0",
         "common-lambda": "*",
         "sessions": "*"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.114"
     }
 }
