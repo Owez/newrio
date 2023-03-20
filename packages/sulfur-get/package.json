@@ -1,0 +1,8 @@
+{
+    "name": "sulfur-get",
+    "version": "0.0.1",
+    "dependencies": {
+        "common-lambda": "*",
+        "sessions": "*"
+    }
+}
